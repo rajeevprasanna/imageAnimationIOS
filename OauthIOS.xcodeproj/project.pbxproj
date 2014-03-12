@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02AE4CA918D037BE00A8AAE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02AE4CA818D037BE00A8AAE5 /* Foundation.framework */; };
+		02AE4CAB18D037BE00A8AAE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02AE4CAA18D037BE00A8AAE5 /* CoreGraphics.framework */; };
+		02AE4CAD18D037BE00A8AAE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02AE4CAC18D037BE00A8AAE5 /* UIKit.framework */; };
+		02AE4CB318D037BE00A8AAE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02AE4CB118D037BE00A8AAE5 /* InfoPlist.strings */; };
+		02AE4CB518D037BE00A8AAE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AE4CB418D037BE00A8AAE5 /* main.m */; };
+		02AE4CB918D037BE00A8AAE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AE4CB818D037BE00A8AAE5 /* AppDelegate.m */; };
+		02AE4CBC18D037BE00A8AAE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02AE4CBA18D037BE00A8AAE5 /* Main.storyboard */; };
+		02AE4CBF18D037BE00A8AAE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AE4CBE18D037BE00A8AAE5 /* ViewController.m */; };
+		02AE4CC118D037BE00A8AAE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02AE4CC018D037BE00A8AAE5 /* Images.xcassets */; };
+		02AE4CC818D037BE00A8AAE5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02AE4CC718D037BE00A8AAE5 /* XCTest.framework */; };
+		02AE4CC918D037BE00A8AAE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02AE4CA818D037BE00A8AAE5 /* Foundation.framework */; };
+		02AE4CCA18D037BE00A8AAE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02AE4CAC18D037BE00A8AAE5 /* UIKit.framework */; };
+		02AE4CD218D037BE00A8AAE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02AE4CD018D037BE00A8AAE5 /* InfoPlist.strings */; };
+		02AE4CD418D037BE00A8AAE5 /* OauthIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AE4CD318D037BE00A8AAE5 /* OauthIOSTests.m */; };
+		02AE4CDE18D0388200A8AAE5 /* 079aaac.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02AE4CDD18D0388200A8AAE5 /* 079aaac.jpg */; };
+		02AE4CE218D03AF900A8AAE5 /* IMG_2902.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 02AE4CE118D03AF900A8AAE5 /* IMG_2902.JPG */; };
+		02AE4CE418D03B2D00A8AAE5 /* DSC_0303.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 02AE4CE318D03B2D00A8AAE5 /* DSC_0303.JPG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02AE4CCB18D037BE00A8AAE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02AE4C9D18D037BE00A8AAE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02AE4CA418D037BE00A8AAE5;
+			remoteInfo = OauthIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02AE4CA518D037BE00A8AAE5 /* OauthIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OauthIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02AE4CA818D037BE00A8AAE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		02AE4CAA18D037BE00A8AAE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		02AE4CAC18D037BE00A8AAE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		02AE4CB018D037BE00A8AAE5 /* OauthIOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OauthIOS-Info.plist"; sourceTree = "<group>"; };
+		02AE4CB218D037BE00A8AAE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02AE4CB418D037BE00A8AAE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02AE4CB618D037BE00A8AAE5 /* OauthIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OauthIOS-Prefix.pch"; sourceTree = "<group>"; };
+		02AE4CB718D037BE00A8AAE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02AE4CB818D037BE00A8AAE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02AE4CBB18D037BE00A8AAE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02AE4CBD18D037BE00A8AAE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		02AE4CBE18D037BE00A8AAE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		02AE4CC018D037BE00A8AAE5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		02AE4CC618D037BE00A8AAE5 /* OauthIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OauthIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02AE4CC718D037BE00A8AAE5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		02AE4CCF18D037BE00A8AAE5 /* OauthIOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OauthIOSTests-Info.plist"; sourceTree = "<group>"; };
+		02AE4CD118D037BE00A8AAE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02AE4CD318D037BE00A8AAE5 /* OauthIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OauthIOSTests.m; sourceTree = "<group>"; };
+		02AE4CDD18D0388200A8AAE5 /* 079aaac.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 079aaac.jpg; sourceTree = "<group>"; };
+		02AE4CE118D03AF900A8AAE5 /* IMG_2902.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2902.JPG; sourceTree = "<group>"; };
+		02AE4CE318D03B2D00A8AAE5 /* DSC_0303.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSC_0303.JPG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02AE4CA218D037BE00A8AAE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02AE4CAB18D037BE00A8AAE5 /* CoreGraphics.framework in Frameworks */,
+				02AE4CAD18D037BE00A8AAE5 /* UIKit.framework in Frameworks */,
+				02AE4CA918D037BE00A8AAE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02AE4CC318D037BE00A8AAE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02AE4CC818D037BE00A8AAE5 /* XCTest.framework in Frameworks */,
+				02AE4CCA18D037BE00A8AAE5 /* UIKit.framework in Frameworks */,
+				02AE4CC918D037BE00A8AAE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02AE4C9C18D037BE00A8AAE5 = {
+			isa = PBXGroup;
+			children = (
+				02AE4CAE18D037BE00A8AAE5 /* ImageAnimationInIOS */,
+				02AE4CCD18D037BE00A8AAE5 /* OauthIOSTests */,
+				02AE4CA718D037BE00A8AAE5 /* Frameworks */,
+				02AE4CA618D037BE00A8AAE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02AE4CA618D037BE00A8AAE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02AE4CA518D037BE00A8AAE5 /* OauthIOS.app */,
+				02AE4CC618D037BE00A8AAE5 /* OauthIOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02AE4CA718D037BE00A8AAE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02AE4CA818D037BE00A8AAE5 /* Foundation.framework */,
+				02AE4CAA18D037BE00A8AAE5 /* CoreGraphics.framework */,
+				02AE4CAC18D037BE00A8AAE5 /* UIKit.framework */,
+				02AE4CC718D037BE00A8AAE5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02AE4CAE18D037BE00A8AAE5 /* ImageAnimationInIOS */ = {
+			isa = PBXGroup;
+			children = (
+				02AE4CB718D037BE00A8AAE5 /* AppDelegate.h */,
+				02AE4CB818D037BE00A8AAE5 /* AppDelegate.m */,
+				02AE4CE318D03B2D00A8AAE5 /* DSC_0303.JPG */,
+				02AE4CDD18D0388200A8AAE5 /* 079aaac.jpg */,
+				02AE4CBA18D037BE00A8AAE5 /* Main.storyboard */,
+				02AE4CE118D03AF900A8AAE5 /* IMG_2902.JPG */,
+				02AE4CBD18D037BE00A8AAE5 /* ViewController.h */,
+				02AE4CBE18D037BE00A8AAE5 /* ViewController.m */,
+				02AE4CC018D037BE00A8AAE5 /* Images.xcassets */,
+				02AE4CAF18D037BE00A8AAE5 /* Supporting Files */,
+			);
+			name = ImageAnimationInIOS;
+			path = OauthIOS;
+			sourceTree = "<group>";
+		};
+		02AE4CAF18D037BE00A8AAE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02AE4CB018D037BE00A8AAE5 /* OauthIOS-Info.plist */,
+				02AE4CB118D037BE00A8AAE5 /* InfoPlist.strings */,
+				02AE4CB418D037BE00A8AAE5 /* main.m */,
+				02AE4CB618D037BE00A8AAE5 /* OauthIOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02AE4CCD18D037BE00A8AAE5 /* OauthIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				02AE4CD318D037BE00A8AAE5 /* OauthIOSTests.m */,
+				02AE4CCE18D037BE00A8AAE5 /* Supporting Files */,
+			);
+			path = OauthIOSTests;
+			sourceTree = "<group>";
+		};
+		02AE4CCE18D037BE00A8AAE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02AE4CCF18D037BE00A8AAE5 /* OauthIOSTests-Info.plist */,
+				02AE4CD018D037BE00A8AAE5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02AE4CA418D037BE00A8AAE5 /* OauthIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02AE4CD718D037BE00A8AAE5 /* Build configuration list for PBXNativeTarget "OauthIOS" */;
+			buildPhases = (
+				02AE4CA118D037BE00A8AAE5 /* Sources */,
+				02AE4CA218D037BE00A8AAE5 /* Frameworks */,
+				02AE4CA318D037BE00A8AAE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OauthIOS;
+			productName = OauthIOS;
+			productReference = 02AE4CA518D037BE00A8AAE5 /* OauthIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02AE4CC518D037BE00A8AAE5 /* OauthIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02AE4CDA18D037BE00A8AAE5 /* Build configuration list for PBXNativeTarget "OauthIOSTests" */;
+			buildPhases = (
+				02AE4CC218D037BE00A8AAE5 /* Sources */,
+				02AE4CC318D037BE00A8AAE5 /* Frameworks */,
+				02AE4CC418D037BE00A8AAE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02AE4CCC18D037BE00A8AAE5 /* PBXTargetDependency */,
+			);
+			name = OauthIOSTests;
+			productName = OauthIOSTests;
+			productReference = 02AE4CC618D037BE00A8AAE5 /* OauthIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02AE4C9D18D037BE00A8AAE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = rajeev;
+				TargetAttributes = {
+					02AE4CC518D037BE00A8AAE5 = {
+						TestTargetID = 02AE4CA418D037BE00A8AAE5;
+					};
+				};
+			};
+			buildConfigurationList = 02AE4CA018D037BE00A8AAE5 /* Build configuration list for PBXProject "OauthIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02AE4C9C18D037BE00A8AAE5;
+			productRefGroup = 02AE4CA618D037BE00A8AAE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02AE4CA418D037BE00A8AAE5 /* OauthIOS */,
+				02AE4CC518D037BE00A8AAE5 /* OauthIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02AE4CA318D037BE00A8AAE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02AE4CE418D03B2D00A8AAE5 /* DSC_0303.JPG in Resources */,
+				02AE4CDE18D0388200A8AAE5 /* 079aaac.jpg in Resources */,
+				02AE4CC118D037BE00A8AAE5 /* Images.xcassets in Resources */,
+				02AE4CE218D03AF900A8AAE5 /* IMG_2902.JPG in Resources */,
+				02AE4CB318D037BE00A8AAE5 /* InfoPlist.strings in Resources */,
+				02AE4CBC18D037BE00A8AAE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02AE4CC418D037BE00A8AAE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02AE4CD218D037BE00A8AAE5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02AE4CA118D037BE00A8AAE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02AE4CBF18D037BE00A8AAE5 /* ViewController.m in Sources */,
+				02AE4CB918D037BE00A8AAE5 /* AppDelegate.m in Sources */,
+				02AE4CB518D037BE00A8AAE5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02AE4CC218D037BE00A8AAE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02AE4CD418D037BE00A8AAE5 /* OauthIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02AE4CCC18D037BE00A8AAE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02AE4CA418D037BE00A8AAE5 /* OauthIOS */;
+			targetProxy = 02AE4CCB18D037BE00A8AAE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02AE4CB118D037BE00A8AAE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02AE4CB218D037BE00A8AAE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		02AE4CBA18D037BE00A8AAE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02AE4CBB18D037BE00A8AAE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02AE4CD018D037BE00A8AAE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02AE4CD118D037BE00A8AAE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02AE4CD518D037BE00A8AAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02AE4CD618D037BE00A8AAE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02AE4CD818D037BE00A8AAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OauthIOS/OauthIOS-Prefix.pch";
+				INFOPLIST_FILE = "OauthIOS/OauthIOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		02AE4CD918D037BE00A8AAE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OauthIOS/OauthIOS-Prefix.pch";
+				INFOPLIST_FILE = "OauthIOS/OauthIOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		02AE4CDB18D037BE00A8AAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OauthIOS.app/OauthIOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OauthIOS/OauthIOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OauthIOSTests/OauthIOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		02AE4CDC18D037BE00A8AAE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OauthIOS.app/OauthIOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OauthIOS/OauthIOS-Prefix.pch";
+				INFOPLIST_FILE = "OauthIOSTests/OauthIOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02AE4CA018D037BE00A8AAE5 /* Build configuration list for PBXProject "OauthIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02AE4CD518D037BE00A8AAE5 /* Debug */,
+				02AE4CD618D037BE00A8AAE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02AE4CD718D037BE00A8AAE5 /* Build configuration list for PBXNativeTarget "OauthIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02AE4CD818D037BE00A8AAE5 /* Debug */,
+				02AE4CD918D037BE00A8AAE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02AE4CDA18D037BE00A8AAE5 /* Build configuration list for PBXNativeTarget "OauthIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02AE4CDB18D037BE00A8AAE5 /* Debug */,
+				02AE4CDC18D037BE00A8AAE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02AE4C9D18D037BE00A8AAE5 /* Project object */;
+}
